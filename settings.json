@@ -1,0 +1,36 @@
+{
+    "name": "Timelapse",
+    "version": "0.5",
+    "description": "RPi Camera Tool",
+    
+    "rotation": 0,        
+    "resolution": {
+        "width": 1920,
+        "height": 1080
+    },
+
+    "text": {
+        "size": 26,
+        "foreground": "black",
+        "background": "lightgrey"
+    },
+
+    "timelapse": {
+        "auto_mode": true,
+        "auto_capture_mode": "day",
+        "images": 5,
+        "interval": 2
+    },
+    "day": {
+        "iso": 0
+    },
+    "night": {
+        "iso": 800,
+        "shutter_speed": 6000000
+    },
+    
+    "statistics": {
+        "enable": true,
+        "json": "./data/statistics.json"
+    }
+}
