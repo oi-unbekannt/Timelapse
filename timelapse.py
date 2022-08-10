@@ -51,6 +51,7 @@ def timelapse(daytime):
 
         print(f"{col.fg.cyan}Image taken {col.reset}: {image_counter}")
         print(f"{col.fg.cyan}End Time    {col.reset}: {end_time}")
+        print(f"{col.fg.cyan}Folder      {col.reset}: {capture_folder}")
         print(f"{37*'-'}")
 
 
